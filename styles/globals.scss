@@ -1,3 +1,14 @@
+@import url("/fonts/stylesheet.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .brand {
+    @apply text-5xl font-bold text-secondary;
+  }
+  .sidebar-link {
+    @apply font-primary tracking-widest;
+  }
+}
