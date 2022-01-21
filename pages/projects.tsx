@@ -1,14 +1,12 @@
-import { motion } from "framer-motion";
-import { useState } from "react";
 import Layout from "./components/Layout";
 
-export default function Home() {
-  const [show, setShow] = useState(true);
+type Props = {};
 
+export default function Projects({}: Props) {
   return (
     <Layout>
       <div className="h-full flex flex-col items-center justify-center font-primary">
-        Hello
+        Projects
       </div>
     </Layout>
   );
