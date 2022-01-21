@@ -9,6 +9,6 @@
     @apply text-5xl font-bold text-secondary;
   }
   .sidebar-link {
-    @apply font-primary tracking-widest;
+    @apply font-primary tracking-widest cursor-pointer transition-colors hover:text-green-700;
   }
 }
