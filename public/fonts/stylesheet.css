@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Light'), local('Poppins-Light'),
+        url('Poppins-Light.woff2') format('woff2'),
+        url('Poppins-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Bold'), local('Poppins-Bold'),
+        url('Poppins-Bold.woff2') format('woff2'),
+        url('Poppins-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galderglynn Titling Rg';
+    src: local('GalderglynnTitlingRg-Bold'),
+        url('GalderglynnTitlingRg-Bold.woff2') format('woff2'),
+        url('GalderglynnTitlingRg-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galderglynn Titling Rg';
+    src: local('GalderglynnTitlingRg-Regular'),
+        url('GalderglynnTitlingRg-Regular.woff2') format('woff2'),
+        url('GalderglynnTitlingRg-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
