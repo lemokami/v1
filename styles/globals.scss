@@ -11,4 +11,7 @@
   .sidebar-link {
     @apply font-primary tracking-widest cursor-pointer transition-colors hover:text-green-700;
   }
+  input[type="range"]::-webkit-slider-thumb {
+    @apply appearance-none h-5 w-5 rounded-full bg-secondary cursor-grab;
+  }
 }
