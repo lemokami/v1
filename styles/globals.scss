@@ -9,7 +9,16 @@
     @apply text-5xl font-bold text-secondary;
   }
   .sidebar-link {
-    @apply font-primary tracking-widest cursor-pointer transition-colors hover:text-green-700;
+    @apply text-sm font-primary tracking-widest cursor-pointer transition-colors hover:text-green-700;
+  }
+  .form-label {
+    @apply tracking-widest font-normal text-xs;
+  }
+  .form-input {
+    @apply font-secondary py-2 px-4 rounded-lg border border-gray focus:outline-none focus:border-neutral-600;
+  }
+  .form-button {
+    @apply bg-secondary py-3 px-6 rounded-lg text-xs text-white tracking-widest font-normal w-fit;
   }
   input[type="range"]::-webkit-slider-thumb {
     @apply appearance-none h-5 w-5 rounded-full bg-secondary cursor-grab;
