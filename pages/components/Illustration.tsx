@@ -18,7 +18,7 @@ const Illustration = () => {
       /> */}
       <motion.img
         src="/assets/potrait.svg"
-        className="h-screen absolute -right-32 -bottom-28 -z-10"
+        className="h-3/4 2xl:h-screen absolute -right-32 bottom-3/2 2xl:-bottom-28  -z-10"
         alt="me"
         variants={illustration}
         initial="hidden"

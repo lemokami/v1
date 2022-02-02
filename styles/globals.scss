@@ -11,6 +11,9 @@
   .sidebar-link {
     @apply text-sm font-primary tracking-widest cursor-pointer transition-colors hover:text-green-700;
   }
+  .navbar-link {
+    @apply font-primary tracking-widest cursor-pointer text-2xl;
+  }
   .form-label {
     @apply tracking-widest font-normal text-xs;
   }
