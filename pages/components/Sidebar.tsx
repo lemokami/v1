@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import { FC } from "react";
 
 type SidebarProps = {
-  className: string;
+  className?: string;
 };
 
 const menuItems = [
@@ -32,9 +32,7 @@ const Sidebar: FC<SidebarProps> = ({ className }) => {
 
   return (
     <div
-      className={`hidden xl:flex flex-col items-start p-10 ${
-        className ? className : ""
-      }`}
+      className={`flex flex-col items-start p-10 ${className ? className : ""}`}
     >
       <Link href="/">
         <a className="brand">W</a>
